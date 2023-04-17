@@ -17,6 +17,6 @@ public class Car {
     private String car_color;
     private String car_model_year;
     private String car_vin;
-    private Double price;
+    private String price;
     private boolean availability;
 }
