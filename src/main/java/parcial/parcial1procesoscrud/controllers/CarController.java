@@ -1,5 +1,6 @@
 package parcial.parcial1procesoscrud.controllers;
 
+<<<<<<< HEAD
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -74,4 +75,8 @@ public class CarController {
             return new ResponseEntity(response,HttpStatus.NOT_FOUND);
         }
     }
+=======
+
+public class CarController {
+>>>>>>> 9a718cfc04c25f9f0e87d52b92f92925dc0bb96f
 }
