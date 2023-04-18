@@ -7,10 +7,7 @@ import parcial.parcial1procesoscrud.models.Car;
 import parcial.parcial1procesoscrud.repository.CarRepository;
 
 import java.util.List;
-<<<<<<< HEAD
 
-=======
->>>>>>> 9a718cfc04c25f9f0e87d52b92f92925dc0bb96f
 @Service
 public class CarServiceImpl implements CarService {
 
@@ -40,8 +37,6 @@ public class CarServiceImpl implements CarService {
         carDB.setAvailability(carDB.isAvailability());
         return carRepository.save(carDB);
     }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 9a718cfc04c25f9f0e87d52b92f92925dc0bb96f
+
